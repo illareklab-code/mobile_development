@@ -85,15 +85,17 @@
 
 ### Backend Stack
 ```
-✅ Spring Boot 3.3+ (Primary)
-   └─ Spring Data JPA 3.2
-   └─ Spring Security 6.2
-   
-✅ Quarkus 3.8+ (Cloud-native)
-   └─ GraalVM native image
-   
-✅ Ktor 2.3+ (Kotlin-native)
-   └─ Coroutines integration
+✅ FastAPI 0.110+ (Recomendado Python)
+   └─ Pydantic v2 + SQLModel
+   └─ Uvicorn (ASGI server)
+   └─ Authlib (OAuth 2.1 + PKCE)
+
+✅ Spring Boot 3.3+ (Recomendado Java)
+   └─ Spring Framework 6.1 (Virtual Threads)
+   └─ GraalVM Native Image
+
+✅ Ktor 2.3+ (Kotlin Native)
+   └─ Structured Concurrency
 ```
 
 ### Base de Datos
